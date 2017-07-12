@@ -1,0 +1,20 @@
+python-agate (1.6.0-3) unstable; urgency=medium
+
+  * Bump standards version to 4.0.0, no changes required
+  * Release to unstable
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Wed, 12 Jul 2017 10:39:20 +0100
+
+python-agate (1.6.0-2) experimental; urgency=medium
+
+  * Force use of UTF-8 locale when running the tests
+  * Fixup the watch regex
+  * Build the docs using the upstream Makefile
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Fri, 26 May 2017 11:26:58 +0100
+
+python-agate (1.6.0-1) experimental; urgency=low
+
+  * Initial release. (Closes: #850448)
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Wed, 22 Mar 2017 11:13:13 +0000

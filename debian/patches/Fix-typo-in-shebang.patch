@@ -1,0 +1,18 @@
+From: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Date: Sat, 11 Mar 2017 15:00:09 +0000
+Subject: Fix typo in shebang
+
+---
+ agate/testcase.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/agate/testcase.py b/agate/testcase.py
+index 8daf3cd..8943820 100644
+--- a/agate/testcase.py
++++ b/agate/testcase.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env Python
++#!/usr/bin/env python
+ 
+ try:
+     import unittest2 as unittest

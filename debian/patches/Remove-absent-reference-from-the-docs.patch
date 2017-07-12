@@ -1,0 +1,23 @@
+From: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Date: Wed, 15 Mar 2017 11:30:18 +0000
+Subject: Remove absent reference from the docs
+
+---
+ docs/api/misc.rst | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/docs/api/misc.rst b/docs/api/misc.rst
+index 0dad4dd..bff7a6a 100644
+--- a/docs/api/misc.rst
++++ b/docs/api/misc.rst
+@@ -5,10 +5,8 @@ Miscellaneous
+ .. autosummary::
+     :nosignatures:
+ 
+-    agate.Patchable
+     agate.NullOrder
+     agate.Quantiles
+ 
+-.. autoclass:: agate.Patchable
+ .. autoclass:: agate.NullOrder
+ .. autoclass:: agate.Quantiles
